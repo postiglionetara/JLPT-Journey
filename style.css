@@ -43,9 +43,33 @@ nav a{
     border-radius:15px;
     box-shadow:0 5px 15px rgba(0,0,0,.08);
 }
+<section class="about-site">
+    <h2>What is JLPT Journey?</h2>
 
+    <p>
+        JLPT Journey is a cozy place to learn Japanese grammar through clear explanations,
+        practical examples, and a peaceful study experience.
+        Along the way, you'll meet new feline friends who visit your Grammar Garden as your knowledge grows.
+    </p>
+</section>
 footer{
     text-align:center;
     padding:30px;
     color:#888;
+}
+.button{
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 28px;
+    background:#E89AB8;
+    color:white;
+    text-decoration:none;
+    border-radius:999px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.button:hover{
+    background:#D77A9F;
+    transform:translateY(-2px);
 }
